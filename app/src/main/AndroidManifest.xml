@@ -25,6 +25,11 @@
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
+        <provider
+            android:name="com.app.contentproviderexample.MyContentProvider"
+            android:authorities="com.app.contentproviderexample"
+            android:exported="true"
+            android:multiprocess="true" />
     </application>
 
 </manifest>
